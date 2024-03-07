@@ -1,0 +1,30 @@
+import React from "react";
+import FirstItemCollection from "../../assets/collection-1.png";
+import SecondItemCollection from "../../assets/collection-2.png";
+import ThirdItemCollection from "../../assets/collection-3.png";
+
+const InspationCollection = () => {
+  return (
+    <div className="py-[60px] px-[148px]">
+      <h1 className="text-[32px] text-[#333333] font-bold text-center">
+        Inspiration Collection
+      </h1>
+      <p className="text-center text-[20px] text-[#666666] mt-[20px] mb-[50px]">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+      <div className="grid grid-cols-3 row-span-1 gap-10">
+        <div className="pt-10">
+          <img src={FirstItemCollection} alt="" />
+        </div>
+        <div className="pb-10">
+          <img src={SecondItemCollection} alt="" />
+        </div>
+        <div className="pt-10">
+          <img src={ThirdItemCollection} alt="" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default InspationCollection;
