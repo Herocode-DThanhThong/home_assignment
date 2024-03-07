@@ -11,8 +11,8 @@ const HowItWorks = () => {
       <p className="text-center text-[20px] text-[#666666] mt-[20px] mb-[50px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
-      <div className="grid grid-cols-3 row-span-1 gap-5">
-        <div>
+      <div className="flex flex-wrap items-center justify-center lg:grid lg:grid-cols-3 row-span-1 gap-5">
+        <div className="flex flex-col items-center">
           <div className="w-[381px] h-[445px] overflow-hidden">
             <img src={FirstItemWork} alt="" className="rounded-md" />
             <div className="mx-auto w-[90px] h-[90px] rounded-tl-full  rounded-tr-full p-[15px] -translate-y-1/2 bg-white">
@@ -30,7 +30,7 @@ const HowItWorks = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
-        <div>
+        <div className="flex flex-col items-center">
           <div className="w-[381px] h-[445px] overflow-hidden">
             <img src={SecondItemWork} alt="" className="rounded-md" />
             <div className="mx-auto w-[90px] h-[90px] rounded-tl-full  rounded-tr-full p-[15px] -translate-y-1/2 bg-white">
@@ -48,7 +48,7 @@ const HowItWorks = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
-        <div>
+        <div className="flex flex-col items-center">
           <div className="w-[381px] h-[445px] overflow-hidden">
             <img src={ThirdItemWork} alt="" className="rounded-md" />
             <div className="mx-auto w-[90px] h-[90px] rounded-tl-full  rounded-tr-full p-[15px] -translate-y-1/2 bg-white">
