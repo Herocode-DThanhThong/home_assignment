@@ -6,11 +6,21 @@ const Navbar = () => {
       <div className="flex items-center flex-col gap-8 lg:justify-between lg:flex-row lg:gap-0">
         <img src={Logo} alt="" />
         <ul className="flex flex-wrap gap-6 justify-center sm:gap-12 items-center">
-          <li className="cursor-pointer font-semibold text-sm">Home</li>
-          <li className="cursor-pointer font-semibold text-sm">Services</li>
-          <li className="cursor-pointer font-semibold text-sm">Doctors</li>
-          <li className="cursor-pointer font-semibold text-sm">Products</li>
-          <li className="cursor-pointer font-semibold text-sm">Gallery</li>
+          <li className="cursor-pointer font-semibold text-sm text-[#333333]">
+            Home
+          </li>
+          <li className="cursor-pointer font-semibold text-sm text-[#333333]">
+            Services
+          </li>
+          <li className="cursor-pointer font-semibold text-sm text-[#333333]">
+            Doctors
+          </li>
+          <li className="cursor-pointer font-semibold text-sm text-[#333333]">
+            Products
+          </li>
+          <li className="cursor-pointer font-semibold text-sm text-[#333333]">
+            Gallery
+          </li>
         </ul>
       </div>
     </div>
