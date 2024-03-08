@@ -5,7 +5,7 @@ import Authentic from "../../assets/option-3.svg";
 
 const Options = () => {
   return (
-    <div className="lg:grid-cols-3 lg:grid flex flex-wrap justify-center items-center py-12 px-[120px] gap-32 bg-[#F2F5FF]">
+    <div className="lg:grid-cols-3 lg:grid flex flex-wrap justify-center items-center py-12 px-16 sm:px-[120px] gap-32 bg-[#F2F5FF]">
       <div className="flex gap-4">
         <img className="w-[55px] h-[55px]" src={FreeDelivery} alt="" />
         <div>

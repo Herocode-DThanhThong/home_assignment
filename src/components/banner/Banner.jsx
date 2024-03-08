@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="relative">
       <img src={WallDecalBackground} alt="" />
-      <div className="lg:absolute lg:w-[643px] lg:h-[443px] lg:left-[710px] lg:top-[155px] lg:bottom-[151px] lg:right-[90px] bg-[#DFE9F4] rounded-md pt-[37px] pl-[39px] pr-[45px] pb-[41px] shadow-md">
+      <div className="lg:absolute lg:w-[643px] lg:h-[443px] lg:top-[155px] lg:right-[90px] bg-[#DFE9F4] rounded-md pt-[37px] pl-[39px] pr-[45px] pb-[41px] shadow-md">
         <div>
           <p className="lg:text-left text-center text-[#333333] text-shadow font-semibold text-[16px] mb-[20px] tracking-widest filter drop-shadow-2xl">
             New Arrival

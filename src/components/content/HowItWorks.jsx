@@ -4,7 +4,7 @@ import SecondItemWork from "../../assets/work-2.png";
 import ThirdItemWork from "../../assets/work-3.png";
 const HowItWorks = () => {
   return (
-    <div className="py-[60px] px-[128px]">
+    <div className="py-[60px] px-16 sm:px-[128px]">
       <h1 className="text-[32px] text-[#333333] font-bold text-center">
         How It Works
       </h1>

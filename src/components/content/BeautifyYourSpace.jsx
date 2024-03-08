@@ -5,7 +5,7 @@ import EllipseImage from "../../assets/ellipse-green.png";
 const BeautifyYourSpace = () => {
   return (
     <div className="lg:flex-row flex-col py-[60px] flex items-center gap-14 bg-[#F2F5FF] relative">
-      <div className="flex-1 pl-[160px]">
+      <div className="flex-1 lg:pl-[160px]">
         <h1 className="lg:text-left text-center text-[32px] text-[#333333] font-bold">
           Beautify Your Space
         </h1>
