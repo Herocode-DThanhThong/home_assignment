@@ -6,7 +6,7 @@ import FourImageShopInstagram from "../../assets/IG-4.jpg";
 
 const Footer = () => {
   return (
-    <div className="lg:flex-row flex-col pt-[50px] pb-[90px] px-[120px] bg-[#03344F] flex gap-6">
+    <div className="lg:flex-row flex-col pt-[50px] pb-[90px] px-14 sm:px-[120px] bg-[#03344F] flex gap-6">
       <div className="flex-1">
         <h1 className="font-bold text-[24px] text-white">Beauty Care</h1>
         <p className="text-left text-[16px] text-white my-3 leading-10">
