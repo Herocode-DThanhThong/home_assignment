@@ -6,7 +6,7 @@ import FourImageShopInstagram from "../../assets/IG-4.jpg";
 
 const Footer = () => {
   return (
-    <div className="h-[386px] pt-[50px] pb-[90px] px-[120px] bg-[#03344F] flex gap-6">
+    <div className="lg:flex-row flex-col pt-[50px] pb-[90px] px-[120px] bg-[#03344F] flex gap-6">
       <div className="flex-1">
         <h1 className="font-bold text-[24px] text-white">Beauty Care</h1>
         <p className="text-left text-[16px] text-white my-6">
@@ -20,7 +20,7 @@ const Footer = () => {
         <h1 className="font-bold text-[24px] mb-6 text-white">
           Instagram Shop
         </h1>
-        <div className="grid grid-cols-4 gap-5">
+        <div className="flex flex-wrap items-center lg:grid lg:grid-cols-4 gap-5">
           <img className="rounded-md" src={FirstImageShopInstagram} alt="" />
           <img className="rounded-md" src={SecondImageShopInstagram} alt="" />
           <img className="rounded-md" src={ThirdImageShopInstagram} alt="" />
