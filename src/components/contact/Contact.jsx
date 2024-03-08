@@ -6,7 +6,7 @@ const Contact = () => {
       <h1 className="text-[32px] text-[#333333] font-bold text-center">
         Join Our Mailing List
       </h1>
-      <p className="mt-[10px] mb-[50px] text-center text-[#666666] text-[20px]">
+      <p className="mt-[10px] mb-11 text-center text-[#666666] text-[20px] leading-10">
         Sign up to receive inspiration, product updates, <br /> and special
         offers from our team.
       </p>
@@ -16,7 +16,7 @@ const Contact = () => {
           className="py-[25px] pl-2 sm:pl-[25px] w-full h-full rounded-md border border-black text-[#011C42] bg-white"
           placeholder="example@gmail.com"
         />
-        <button className="rounded-md py-[26px] px-4 sm:px-[44px] text-white font-bold text-[16px] absolute top-0 bottom-0 right-0 bg-[#054C73] rounded-tr-md rounded-br-md rounded-tl-none rounded-bl-none">
+        <button className="rounded-md py-[26px] px-4 sm:px-[44px] text-white font-bold text-[16px] absolute top-0 bottom-0 right-0 bg-[#054C73]">
           Submit
         </button>
       </div>
