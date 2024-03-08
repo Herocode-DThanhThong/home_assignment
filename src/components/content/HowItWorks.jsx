@@ -23,7 +23,7 @@ const HowItWorks = () => {
               </div>
             </div>
           </div>
-          <p className="text-center font-semibold text-2xl mt-[30px]">
+          <p className="text-center font-semibold text-2xl mt-[30px] text-[#333333]">
             Purchase Securely
           </p>
           <p className="text-center text-[16px] text-[#666666] mt-[10px]">
@@ -41,7 +41,7 @@ const HowItWorks = () => {
               </div>
             </div>
           </div>
-          <p className="text-center font-semibold text-2xl mt-[30px]">
+          <p className="text-center font-semibold text-2xl mt-[30px] text-[#333333]">
             Ships From Warehouse
           </p>
           <p className="text-center text-[16px] text-[#666666] mt-[10px]">
@@ -59,7 +59,7 @@ const HowItWorks = () => {
               </div>
             </div>
           </div>
-          <p className="text-center font-semibold text-2xl mt-[30px]">
+          <p className="text-center font-semibold text-2xl mt-[30px] text-[#333333]">
             Style Your Room
           </p>
           <p className="text-center text-[16px] text-[#666666] mt-[10px]">
