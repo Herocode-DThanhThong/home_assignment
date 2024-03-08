@@ -14,15 +14,19 @@ const BrowseTheRannge = () => {
       <div className="flex items-center flex-wrap justify-center md:grid md:grid-cols-3 row-span-1 gap-5">
         <div>
           <img src={FirstItemRange} alt="" />
-          <p className="text-center font-semibold text-2xl mt-[30px]">Dining</p>
+          <p className="text-center font-semibold text-2xl mt-[30px] text-[#333333]">
+            Dining
+          </p>
         </div>
         <div>
           <img src={SecondItemRange} alt="" />
-          <p className="text-center font-semibold text-2xl mt-[30px]">Living</p>
+          <p className="text-center font-semibold text-2xl mt-[30px] text-[#333333]">
+            Living
+          </p>
         </div>
         <div>
           <img src={ThirdItemRange} alt="" />
-          <p className="text-center font-semibold text-2xl mt-[30px]">
+          <p className="text-center font-semibold text-2xl mt-[30px] text-[#333333]">
             Bedroom
           </p>
         </div>

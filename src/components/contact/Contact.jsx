@@ -10,13 +10,13 @@ const Contact = () => {
         Sign up to receive inspiration, product updates, <br /> and special
         offers from our team.
       </p>
-      <div className="flex justify-center items-center flex-col sm:block sm:w-[486px] relative h-[70px]">
+      <div className="w-3/4 flex justify-center items-center flex-col sm:block sm:w-[486px] relative h-[70px]">
         <input
           type="text"
-          className="py-[25px] pl-[25px] w-full h-full rounded-md border border-black text-[#011C42]"
+          className="py-[25px] pl-2 sm:pl-[25px] w-full h-full rounded-md border border-black text-[#011C42] bg-white"
           placeholder="example@gmail.com"
         />
-        <button className="py-4 my-1 sm:my-0 rounded-md sm:py-[26px] px-[44px] text-white font-bold text-[16px] sm:absolute top-0 bottom-0 right-0 bg-[#054C73] sm:rounded-tr-md sm:rounded-br-md sm:rounded-tl-none sm:rounded-bl-none">
+        <button className="rounded-md py-[26px] px-4 sm:px-[44px] text-white font-bold text-[16px] absolute top-0 bottom-0 right-0 bg-[#054C73] rounded-tr-md rounded-br-md rounded-tl-none rounded-bl-none">
           Submit
         </button>
       </div>

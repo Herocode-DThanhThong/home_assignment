@@ -9,12 +9,12 @@ const BeautifyYourSpace = () => {
         <h1 className="lg:text-left text-center text-[32px] text-[#333333] font-bold">
           Beautify Your Space
         </h1>
-        <p className="lg:text-left text-center mt-5 mb-[30px] text-[20px]">
+        <p className="lg:text-left text-center mt-5 mb-7 text-[20px] text-[#666666] leading-10">
           Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
           ad minim veniam, quis nostrud exercitation ullamco laboris.
         </p>
         <div className="lg:block flex justify-center">
-          <button className="bg-[#054C73] py-[24px] px-[57px] uppercase text-white rounded-full">
+          <button className="bg-[#054C73] py-[24px] px-[57px] uppercase text-white rounded-full font-bold">
             learn more
           </button>
         </div>
