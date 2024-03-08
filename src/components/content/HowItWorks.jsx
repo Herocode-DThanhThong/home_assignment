@@ -13,7 +13,7 @@ const HowItWorks = () => {
       </p>
       <div className="flex flex-wrap items-center justify-center xl:grid xl:grid-cols-3 row-span-1 gap-5">
         <div className="flex flex-col items-center">
-          <div className="w-[381px] h-[445px] overflow-hidden">
+          <div className="h-[445px] overflow-hidden">
             <img src={FirstItemWork} alt="" className="rounded-md" />
             <div className="mx-auto w-[90px] h-[90px] rounded-tl-full  rounded-tr-full p-[15px] -translate-y-1/2 bg-white">
               <div className="bg-black rounded-full w-[60px] h-[60px]">
@@ -31,7 +31,7 @@ const HowItWorks = () => {
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <div className="w-[381px] h-[445px] overflow-hidden">
+          <div className="h-[445px] overflow-hidden">
             <img src={SecondItemWork} alt="" className="rounded-md" />
             <div className="mx-auto w-[90px] h-[90px] rounded-tl-full  rounded-tr-full p-[15px] -translate-y-1/2 bg-white">
               <div className="bg-black rounded-full w-[60px] h-[60px]">
@@ -49,7 +49,7 @@ const HowItWorks = () => {
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <div className="w-[381px] h-[445px] overflow-hidden">
+          <div className="h-[445px] overflow-hidden">
             <img src={ThirdItemWork} alt="" className="rounded-md" />
             <div className="mx-auto w-[90px] h-[90px] rounded-tl-full  rounded-tr-full p-[15px] -translate-y-1/2 bg-white">
               <div className="bg-black rounded-full w-[60px] h-[60px]">
