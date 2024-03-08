@@ -14,7 +14,7 @@ const Banner = () => {
             Discover Our <br />
             New Collection
           </h1>
-          <p className="lg:text-left text-center text-[#333333] mt-2 mb-[30px] text-[18px] leading-10">
+          <p className="lg:text-left font-medium text-center text-[#333333] mt-2 mb-[30px] text-[18px] leading-10">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis.
           </p>

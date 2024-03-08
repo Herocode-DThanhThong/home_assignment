@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./components/navbar/Navbar";
 import Banner from "./components/banner/Banner";
-import Content from "./components/content/Content";
 import Contact from "./components/contact/Contact";
+import Content from "./components/content/Content";
 import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
